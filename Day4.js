@@ -1,34 +1,34 @@
 // //1..Print odd number in array
-//  arr=[1,2,3,4,5,6,7,8]
-// //Anonymns method
-// let Odd_num=function(arr){
-//     Odds=[]
-//     for(i=0;i<arr.length;i++)
-//     {
-//         if(+arr[i]%2!=0)
-//         {
-//            Odds.push(arr[i])
-//         }
-//     }
-//     return Odds;
-// }
+ arr=[1,2,3,4,5,6,7,8]
+//Anonymns method
+let Odd_num=function(arr){
+    Odds=[]
+    for(i=0;i<arr.length;i++)
+    {
+        if(+arr[i]%2!=0)
+        {
+           Odds.push(arr[i])
+        }
+    }
+    return Odds;
+}
 
-// let Odd=Odd_num(arr)
-// console.log(Odd)
+let Odd=Odd_num(arr)
+console.log(Odd)
 
-// //llfe method
+//llfe method
 
-// (function(arr){
-//     Odds=[]
-//     for(i=0;i<arr.length;i++)
-//     {
-//         if(+arr[i]%2!=0)
-//         {
-//            Odds.push(arr[i])
-//         }
-//     }
-//     console.log(Odds)
-// }([1,2,3,4,5,6,7,8]));
+(function(arr){
+    Odds=[]
+    for(i=0;i<arr.length;i++)
+    {
+        if(+arr[i]%2!=0)
+        {
+           Odds.push(arr[i])
+        }
+    }
+    console.log(Odds)
+}([1,2,3,4,5,6,7,8]));
 
 
 //2.Convert all the string to title case
